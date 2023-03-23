@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Lwc</label>
+            <name>Lwc</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Lightning Aura component</label>
+            <name>Lightning_Aura_component</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Devops</label>
+            <name>Devops</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>step by step guide for salesforce implementation</description>
+    <label>Salesforce</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

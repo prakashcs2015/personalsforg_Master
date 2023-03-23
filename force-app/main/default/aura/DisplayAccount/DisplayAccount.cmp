@@ -1,0 +1,7 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="GetAccountList" >
+    <aura:attribute name ="lstAccount" type="String[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:iteration items="{!v.lstAccount}" var = "acc">
+        {!acc.Name}
+    </aura:iteration>
+</aura:component>
